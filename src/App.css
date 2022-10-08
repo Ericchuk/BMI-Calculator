@@ -260,7 +260,7 @@ footer img:hover + .tooltip {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  border: 5px solid lightcyan;
+  border: 5px solid red;
   width: 60px;
   height: 60px;
   padding: 5px;
@@ -379,71 +379,71 @@ footer img:hover + .tooltip {
 }
 @-webkit-keyframes bounce {
   0% {
-    border: 1px solid lightcyan;
+    border: 1px solid red;
   }
   10% {
-    border: 2px solid lightcyan;
+    border: 2px solid red;
   }
   20% {
-    border: 3px solid lightcyan;
+    border: 3px solid red;
   }
   30% {
-    border: 4px solid lightcyan;
+    border: 4px solid red;
   }
   40% {
-    border: 5px solid lightcyan;
+    border: 5px solid red;
   }
   50% {
-    border: 6px solid lightcyan;
+    border: 6px solid red;
   }
   60% {
-    border: 8px solid lightcyan;
+    border: 8px solid red;
   }
   70% {
-    border: 4px solid lightcyan;
+    border: 4px solid red;
   }
   80% {
-    border: 3px solid lightcyan;
+    border: 3px solid red;
   }
   90% {
-    border: 2px solid lightcyan;
+    border: 2px solid red;
   }
   100% {
-    border: 2px solid lightcyan;
+    border: 2px solid red;
   }
 }
 @keyframes bounce {
   0% {
-    border: 1px solid lightcyan;
+    border: 1px solid red;
   }
   10% {
-    border: 2px solid lightcyan;
+    border: 2px solid red;
   }
   20% {
-    border: 3px solid lightcyan;
+    border: 3px solid red;
   }
   30% {
-    border: 4px solid lightcyan;
+    border: 4px solid red;
   }
   40% {
-    border: 5px solid lightcyan;
+    border: 5px solid red;
   }
   50% {
-    border: 6px solid lightcyan;
+    border: 6px solid red;
   }
   60% {
-    border: 8px solid lightcyan;
+    border: 8px solid red;
   }
   70% {
-    border: 4px solid lightcyan;
+    border: 4px solid red;
   }
   80% {
-    border: 3px solid lightcyan;
+    border: 3px solid red;
   }
   90% {
-    border: 2px solid lightcyan;
+    border: 2px solid red;
   }
   100% {
-    border: 2px solid lightcyan;
+    border: 2px solid red;
   }
 }/*# sourceMappingURL=App.css.map */
