@@ -24,7 +24,7 @@ function Footer() {
       </a>
 
       <a href="#top" className="">
-        <div className="bouncer">
+        <div id="bouncer">
           <img src={Up} alt="Up" className="up" />
         </div>
       </a>

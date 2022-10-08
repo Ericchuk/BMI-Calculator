@@ -149,27 +149,28 @@
   width: 70%;
   text-align: center;
 }
-.position header aside {
+.position aside {
   margin: 30px 0 10px;
 }
-.position header aside h3 {
+.position aside h3 {
   font-size: 30px;
 }
-.position header aside h3 span {
+.position aside h3 span {
   color: black;
   font-weight: bolder;
   font-size: 35px;
 }
-.position header aside h2 {
+.position aside h2 {
   font-size: 40px;
   padding: 5px 10px;
   background-color: black;
   margin: 20px 0;
 }
-.position section {
+
+section {
   padding: 10px;
 }
-.position section aside {
+section aside {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,61 +178,62 @@
   width: 100%;
   margin: 30px 0;
 }
-.position section aside h3 {
+section aside h3 {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0 0 20px 0;
 }
-.position section aside h2 {
+section aside h2 {
   font-weight: 800;
   width: 100%;
   border: 2px solid hsl(0deg, 100%, 50%);
   margin: 10px 0 20px;
   padding: 10px;
 }
-.position section aside h4,
-.position section aside h5 {
+section aside h4,
+section aside h5 {
   width: 100%;
   margin: 0 0 10px;
 }
-.position section aside h5 {
+section aside h5 {
   font-size: 1.3rem;
   color: red;
 }
-.position section aside p {
+section aside p {
   font-size: 1rem;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
-.position section aside b {
+section aside b {
   font-weight: 700;
   font-size: 1.2rem;
 }
-.position footer {
+
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-.position footer h2 {
+footer h2 {
   width: 100%;
 }
-.position footer div {
+footer div {
   width: 100%;
   padding: 10px;
 }
-.position footer img {
+footer img {
   width: 35px;
   padding: 5px;
   background-color: white;
   margin: 0 10px;
 }
-.position footer .back {
+footer .back {
   width: 100%;
   margin: 10px 0 0;
   position: relative;
 }
-.position footer .tooltip {
+footer .tooltip {
   position: absolute;
   font-size: 12px;
   margin: 5px 0 0 5px;
@@ -240,7 +242,7 @@
   padding: 1px 5px;
   visibility: hidden;
 }
-.position footer .tooltip::before {
+footer .tooltip::before {
   content: "";
   position: absolute;
   top: 80%;
@@ -250,25 +252,30 @@
   border-style: solid;
   border-color: transparent white transparent transparent;
 }
-.position footer img:hover + .tooltip {
+footer img:hover + .tooltip {
   visibility: visible;
 }
-.position .bouncer {
+
+#bouncer {
   position: fixed;
   bottom: 10px;
   right: 10px;
   border: 5px solid lightcyan;
   width: 60px;
   height: 60px;
-  border-radius: 50%;
+  padding: 5px;
+  border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-animation: bounce 2s infinite cubic-bezier(0.075, 0.82, 0.165, 1);
+          animation: bounce 2s infinite cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.position .up {
+
+.up {
   border-radius: 50px;
   padding: 10px;
-  width: 40px;
+  width: 30px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -326,6 +333,7 @@
     margin: 10px;
     padding: 10px 15px;
     border: 2px solid red;
+    border-radius: 5px;
   }
   .position aside h3 {
     text-align: center;
@@ -364,5 +372,78 @@
   }
   .position footer div img {
     width: 50px;
+  }
+  .position footer #bouncer img {
+    width: 35px;
+  }
+}
+@-webkit-keyframes bounce {
+  0% {
+    border: 1px solid lightcyan;
+  }
+  10% {
+    border: 2px solid lightcyan;
+  }
+  20% {
+    border: 3px solid lightcyan;
+  }
+  30% {
+    border: 4px solid lightcyan;
+  }
+  40% {
+    border: 5px solid lightcyan;
+  }
+  50% {
+    border: 6px solid lightcyan;
+  }
+  60% {
+    border: 8px solid lightcyan;
+  }
+  70% {
+    border: 4px solid lightcyan;
+  }
+  80% {
+    border: 3px solid lightcyan;
+  }
+  90% {
+    border: 2px solid lightcyan;
+  }
+  100% {
+    border: 2px solid lightcyan;
+  }
+}
+@keyframes bounce {
+  0% {
+    border: 1px solid lightcyan;
+  }
+  10% {
+    border: 2px solid lightcyan;
+  }
+  20% {
+    border: 3px solid lightcyan;
+  }
+  30% {
+    border: 4px solid lightcyan;
+  }
+  40% {
+    border: 5px solid lightcyan;
+  }
+  50% {
+    border: 6px solid lightcyan;
+  }
+  60% {
+    border: 8px solid lightcyan;
+  }
+  70% {
+    border: 4px solid lightcyan;
+  }
+  80% {
+    border: 3px solid lightcyan;
+  }
+  90% {
+    border: 2px solid lightcyan;
+  }
+  100% {
+    border: 2px solid lightcyan;
   }
 }/*# sourceMappingURL=App.css.map */
